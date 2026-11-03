@@ -12,7 +12,7 @@ runnable example files with expected output in comments, plus exercises.
 | 01 | [Python Basics](01_python_basics/) | Done |
 | 02 | [Operators](02_operators) | Done |
 | 03 | [Control Flow](03_control_flow) | Done |
-| 04 | [Functions & Modules](04_functions_and_modules) | Planned |
+| 04 | [Functions & Modules](04_functions_and_modules) | Done |
 | 05 | Strings | Planned |
 | 06 | Lists | Planned |
 | 07 | Tuples | Planned |
