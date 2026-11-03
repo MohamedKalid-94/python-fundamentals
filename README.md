@@ -10,8 +10,8 @@ runnable example files with expected output in comments, plus exercises.
 | # | Module | Status |
 |---|--------|--------|
 | 01 | [Python Basics](01_python_basics/) | Done |
-| 02 | Operators | Planned |
-| 03 | Control Flow | Planned |
+| 02 | [Operators](02_operators) | Done |
+| 03 | [Control Flow] (03_control_flow) | Done |
 | 04 | Functions & Modules | Planned |
 | 05 | Strings | Planned |
 | 06 | Lists | Planned |
