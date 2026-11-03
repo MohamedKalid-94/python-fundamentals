@@ -33,7 +33,7 @@ runnable example files with expected output in comments, plus exercises.
 ## How to run
 
 ```bash
-git clone https://github.com/<your-username>/python-fundamentals.git
+git clone https://https://github.com/MohamedKalid-94/python-fundamentals
 cd python-fundamentals/01_python_basics
 python 02_variables.py
 ```
