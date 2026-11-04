@@ -15,7 +15,7 @@ runnable example files with expected output in comments, plus exercises.
 | 04 | [Functions & Modules](04_functions_and_modules) | Done |
 | 05 | [Strings](05_strings) | Done |
 | 06 | [Lists](06_lists) | Done |
-| 07 | Tuples | Planned |
+| 07 | [Tuples](07_tuples) | Done |
 | 08 | Sets | Planned |
 | 09 | Dictionaries | Planned |
 | 10 | Arrays | Planned |
