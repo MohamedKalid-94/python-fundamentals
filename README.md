@@ -13,7 +13,7 @@ runnable example files with expected output in comments, plus exercises.
 | 02 | [Operators](02_operators) | Done |
 | 03 | [Control Flow](03_control_flow) | Done |
 | 04 | [Functions & Modules](04_functions_and_modules) | Done |
-| 05 | Strings | Planned |
+| 05 | [Strings](05_strings) | Done |
 | 06 | Lists | Planned |
 | 07 | Tuples | Planned |
 | 08 | Sets | Planned |
