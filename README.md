@@ -14,7 +14,7 @@ runnable example files with expected output in comments, plus exercises.
 | 03 | [Control Flow](03_control_flow) | Done |
 | 04 | [Functions & Modules](04_functions_and_modules) | Done |
 | 05 | [Strings](05_strings) | Done |
-| 06 | Lists | Planned |
+| 06 | [Lists](06_lists) | Done |
 | 07 | Tuples | Planned |
 | 08 | Sets | Planned |
 | 09 | Dictionaries | Planned |
