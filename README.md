@@ -16,7 +16,7 @@ runnable example files with expected output in comments, plus exercises.
 | 05 | [Strings](05_strings) | Done |
 | 06 | [Lists](06_lists) | Done |
 | 07 | [Tuples](07_tuples) | Done |
-| 08 | Sets | Planned |
+| 08 | [Sets](08_sets) | Done |
 | 09 | Dictionaries | Planned |
 | 10 | Arrays | Planned |
 | 11 | File Handling | Planned |
