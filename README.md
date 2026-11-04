@@ -18,7 +18,7 @@ runnable example files with expected output in comments, plus exercises.
 | 07 | [Tuples](07_tuples) | Done |
 | 08 | [Sets](08_sets) | Done |
 | 09 | [Dictionaries](09_dictionaries) | Done |
-| 10 | Arrays | Planned |
+| 10 | [Arrays](10_arrays) | Done |
 | 11 | File Handling | Planned |
 | 12 | OOP Part 1 | Planned |
 | 13 | OOP Part 2 | Planned |
