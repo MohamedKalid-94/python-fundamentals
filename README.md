@@ -19,7 +19,7 @@ runnable example files with expected output in comments, plus exercises.
 | 08 | [Sets](08_sets) | Done |
 | 09 | [Dictionaries](09_dictionaries) | Done |
 | 10 | [Arrays](10_arrays) | Done |
-| 11 | File Handling | Planned |
+| 11 | [File Handling](11_file_handling) | Done |
 | 12 | OOP Part 1 | Planned |
 | 13 | OOP Part 2 | Planned |
 | 14 | Errors & Exceptions | Planned |
