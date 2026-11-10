@@ -22,7 +22,7 @@ runnable example files with expected output in comments, plus exercises.
 | 11 | [File Handling](11_file_handling) | Done |
 | 12 | [OOP Part 1](12_oop_part1) | Done |
 | 13 | [OOP Part 2](13_oop_part2) | Done |
-| 14 | Errors & Exceptions | Planned |
+| 14 | [Errors & Exceptions](14_errors_and_exceptions) | Done |
 | 15 | Multithreading & Synchronization | Planned |
 | 16 | Networking | Planned |
 | 17 | Miscellaneous A | Planned |
