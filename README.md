@@ -20,8 +20,8 @@ runnable example files with expected output in comments, plus exercises.
 | 09 | [Dictionaries](09_dictionaries) | Done |
 | 10 | [Arrays](10_arrays) | Done |
 | 11 | [File Handling](11_file_handling) | Done |
-| 12 | OOP Part 1 | Planned |
-| 13 | OOP Part 2 | Planned |
+| 12 | [OOP Part 1](12_oop_part1) | Done |
+| 13 | [OOP Part 2](13_oop_part2) | Done |
 | 14 | Errors & Exceptions | Planned |
 | 15 | Multithreading & Synchronization | Planned |
 | 16 | Networking | Planned |
