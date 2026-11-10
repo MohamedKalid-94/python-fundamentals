@@ -23,7 +23,7 @@ runnable example files with expected output in comments, plus exercises.
 | 12 | [OOP Part 1](12_oop_part1) | Done |
 | 13 | [OOP Part 2](13_oop_part2) | Done |
 | 14 | [Errors & Exceptions](14_errors_and_exceptions) | Done |
-| 15 | Multithreading & Synchronization | Planned |
+| 15 | [Multithreading & Synchronization](15_multithreading) | Done |
 | 16 | Networking | Planned |
 | 17 | Miscellaneous A | Planned |
 | 18 | Miscellaneous B | Planned |
