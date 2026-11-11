@@ -25,7 +25,7 @@ runnable example files with expected output in comments, plus exercises.
 | 14 | [Errors & Exceptions](14_errors_and_exceptions) | Done |
 | 15 | [Multithreading & Synchronization](15_multithreading) | Done |
 | 16 | [Networking](16_networking) | Done |
-| 17 | Miscellaneous A | Planned |
+| 17 | [Miscellaneous A](17_misc_a) | Done |
 | 18 | Miscellaneous B | Planned |
 | 19 | Advanced A | Planned |
 | 20 | Advanced B | Planned |
