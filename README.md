@@ -28,7 +28,7 @@ runnable example files with expected output in comments, plus exercises.
 | 17 | [Miscellaneous A](17_misc_a) | Done |
 | 18 | [Miscellaneous B](18_misc_b) | Done |
 | 19 | [Advanced A](19_advanced_a) | Done |
-| 20 | Advanced B | Planned |
+| 20 | [Advanced B](20_advanced_b) | Done |
 
 ## How to run
 
