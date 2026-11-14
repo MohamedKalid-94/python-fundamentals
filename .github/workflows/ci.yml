@@ -26,3 +26,13 @@ jobs:
           python-version: "3.12"
       - run: pip install -r 21_pytest/requirements.txt
       - run: pytest 21_pytest -q
+
+  fastapi-basics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r 22_fastapi_basics/requirements.txt
+      - run: pytest 22_fastapi_basics -q
