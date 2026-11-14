@@ -1,0 +1,5 @@
+pytest>=8
+pytest-xdist
+pytest-cov
+pytest-mock
+pytest-asyncio

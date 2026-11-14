@@ -16,3 +16,13 @@ jobs:
         with:
           python-version: ${{ matrix.python-version }}
       - run: python run_all.py
+
+  pytest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r 21_pytest/requirements.txt
+      - run: pytest 21_pytest -q

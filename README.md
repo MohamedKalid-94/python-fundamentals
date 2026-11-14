@@ -2,12 +2,12 @@
 
 # Python Fundamentals
 
-A complete, gap-free Python course in 20 modules, written from the point of view of an embedded-systems
+A complete, gap-free Python course in 21 modules, written from the point of view of an embedded-systems
 engineer moving into AI engineering. Every module has runnable lesson files with the expected output in
 comments, an `exercises.py` for practice, a `CONCEPTS.md` summary table, and a short `README.md`.
 
 **Author:** Mohamed Kalid
-**Status:** syllabus complete (Modules 01 to 20)
+**Status:** syllabus complete (Modules 01 to 21)
 
 ## Modules
 
@@ -33,6 +33,7 @@ comments, an `exercises.py` for practice, a `CONCEPTS.md` summary table, and a s
 | 18 | [Miscellaneous B](18_misc_b/) | pip, SQLite, JSON, XML, compression, GUI, CLI, email, `ctypes` | Done |
 | 19 | [Advanced A](19_advanced_a/) | ABCs, metaclasses, memory management, higher-order functions | Done |
 | 20 | [Advanced B](20_advanced_b/) | Mocking, signals, type hints, `asyncio`, descriptors, DSLs, the data model | Done |
+| 21 | [pytest](21_pytest/) | Fixtures, parametrization, mocking, async tests, coverage | Done |
 
 ## How to run
 
@@ -45,7 +46,7 @@ python 02_slicing_strings.py            # or run one lesson
 ```
 
 Requirements: **Python 3.12 recommended** (3.11 is enough for everything except one lesson in Module 16).
-Only the standard library is used. The `humanize`, `requests` and similar packages appear in comments only.
+Modules 01 to 20 use only the standard library. Module 21 needs pip install -r 21_pytest/requirements.txt. The `humanize`, `requests` and similar packages appear in comments only.
 
 ## How each module is organised
 

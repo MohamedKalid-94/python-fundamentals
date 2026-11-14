@@ -12,3 +12,6 @@ venv/
 *.log
 *.db
 *.tmp
+.coverage
+htmlcov/
+report.xml
