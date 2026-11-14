@@ -1,4 +1,4 @@
-![run-lessons](https://github.com/<your-username>/python-fundamentals/actions/workflows/ci.yml/badge.svg)
+![run-lessons](https://github.com/MohamedKalid-94/python-fundamentals/actions/workflows/ci.yml/badge.svg)
 
 # Python Fundamentals
 
