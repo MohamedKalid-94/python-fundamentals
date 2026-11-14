@@ -46,3 +46,13 @@ jobs:
           python-version: "3.12"
       - run: pip install -r 23_fastapi_requests_responses/requirements.txt
       - run: pytest 23_fastapi_requests_responses -q      
+
+  fastapi-data-deployment:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r 24_fastapi_data_deployment/requirements.txt
+      - run: pytest 24_fastapi_data_deployment -q      

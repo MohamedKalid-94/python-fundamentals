@@ -1,0 +1,11 @@
+fastapi[standard]>=0.115
+pytest
+pydantic-settings
+sqlalchemy>=2.0
+flask
+a2wsgi
+strawberry-graphql[fastapi]
+pyjwt
+pwdlib[argon2]
+# Only for running lesson 03 against a real MongoDB (not needed for the tests):
+# pymongo>=4.9
