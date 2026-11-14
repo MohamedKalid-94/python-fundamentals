@@ -6,3 +6,9 @@ venv/
 .idea/
 .DS_Store
 .env
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+*.log
+*.db
+*.tmp
