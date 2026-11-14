@@ -85,8 +85,8 @@ with cm:
 try:
     with cm:
         pass
-except RuntimeError:
-    print("RuntimeError")                       # RuntimeError
+except (AttributeError, RuntimeError):          # the exact type depends on the Python version
+    print("cannot be reused")                   # cannot be reused
 
 # 5. ContextDecorator: the same object works as a "with" AND as a decorator
 class Logged(ContextDecorator):

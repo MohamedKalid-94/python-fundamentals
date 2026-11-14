@@ -139,9 +139,9 @@ probe.bind(("127.0.0.1", 0))
 dead_port = probe.getsockname()[1]
 probe.close()                                   # now nobody listens on dead_port
 try:
-    socket.create_connection(("127.0.0.1", dead_port), timeout=1)
+    socket.create_connection(("127.0.0.1", dead_port), timeout=5)
 except ConnectionRefusedError:
-    print("ConnectionRefusedError")             # ConnectionRefusedError
+    print("ConnectionRefusedError")             # ConnectionRefusedError   (Windows needs about 2 s)
 
 waiter = socket.socket()
 waiter.bind(("127.0.0.1", 0))
