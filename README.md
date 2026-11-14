@@ -1,4 +1,4 @@
-![run-lessons](https://github.com/MohamedKalid-94/python-fundamentals/actions/workflows/ci.yml/badge.svg)
+[![run-lessons](https://github.com/MohamedKalid-94/python-fundamentals/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/MohamedKalid-94/python-fundamentals/actions/workflows/ci.yml)
 
 # Python Fundamentals
 
@@ -37,7 +37,7 @@ comments, an `exercises.py` for practice, a `CONCEPTS.md` summary table, and a s
 ## How to run
 
 ```bash
-git clone https://github.com/<your-username>/python-fundamentals.git
+git clone https://github.com/MohamedKalid-94/python-fundamentals.git
 cd python-fundamentals
 python run_all.py                       # run every lesson and report failures
 cd 05_strings
