@@ -2,12 +2,12 @@
 
 # Python Fundamentals
 
-A complete, gap-free Python course in 22 modules, written from the point of view of an embedded-systems
+A complete, gap-free Python course in 23 modules, written from the point of view of an embedded-systems
 engineer moving into AI engineering. Every module has runnable lesson files with the expected output in
 comments, an `exercises.py` for practice, a `CONCEPTS.md` summary table, and a short `README.md`.
 
 **Author:** Mohamed Kalid
-**Status:** syllabus complete (Modules 01 to 22)
+**Status:** syllabus complete (Modules 01 to 23)
 
 ## Modules
 
@@ -35,6 +35,7 @@ comments, an `exercises.py` for practice, a `CONCEPTS.md` summary table, and a s
 | 20 | [Advanced B](20_advanced_b/) | Mocking, signals, type hints, `asyncio`, descriptors, DSLs, the data model | Done |
 | 21 | [pytest](21_pytest/) | Fixtures, parametrization, mocking, async tests, coverage | Done |
 | 22 | [FastAPI Basics](22_fastapi_basics/) | Path and query parameters, validation, Pydantic, request body, errors | Done |
+| 23 | [FastAPI Requests and Responses](23_fastapi_requests_responses/) | Templates, forms, uploads, cookies, headers, response models, dependencies, CORS, async | Done |
 
 ## How to run
 

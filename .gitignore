@@ -15,3 +15,4 @@ venv/
 .coverage
 htmlcov/
 report.xml
+23_fastapi_requests_responses/uploads/

@@ -36,3 +36,13 @@ jobs:
           python-version: "3.12"
       - run: pip install -r 22_fastapi_basics/requirements.txt
       - run: pytest 22_fastapi_basics -q
+
+  fastapi-requests-responses:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r 23_fastapi_requests_responses/requirements.txt
+      - run: pytest 23_fastapi_requests_responses -q      

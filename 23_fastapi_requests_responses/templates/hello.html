@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}{{ title }}{% endblock %}
+{% block content %}
+<h1>Hello {{ name }}</h1>
+<ul>
+{% for sensor in sensors %}
+  <li>{{ sensor.name }}: {{ sensor.value }} {{ sensor.unit }}</li>
+{% endfor %}
+</ul>
+{% if not sensors %}<p>No sensors.</p>{% endif %}
+{% endblock %}
