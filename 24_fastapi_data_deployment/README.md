@@ -12,7 +12,7 @@ Run an app with `fastapi dev app_01_crud.py` and open http://127.0.0.1:8000/docs
 | app_05 / test_05 | WebSockets |
 | app_06 / test_06 | Event handlers and `lifespan` |
 | app_07 / test_07 | Routers and mounted sub-apps |
-| app_08 / test_08 | Middleware |
+| 08 | Middleware | Order | The one added last is outermost; it may answer without calling `call_next`; add `GZipMiddleware` BEFORE the `@app.middleware("http")` functions, or small answers get compressed too |
 | app_09 / test_09 | Mounting a Flask app |
 | app_10 / test_10 | Streaming and Server-Sent Events |
 | app_11 / test_11 | Passwords and JWT security |

@@ -16,12 +16,21 @@ from fastapi.responses import JSONResponse
 #   app.add_middleware(Class, **options)         add a ready-made one
 # ORDER: the middleware added LAST is the OUTERMOST: it sees the request first and the response last.
 # A middleware can answer by itself without calling call_next (see "blocked" below).
+#
+# ORDER CAN CHANGE BEHAVIOUR (a real gotcha)
+#   Functions written with @app.middleware("http") hand the body on in CHUNKS (as a stream).
+#   GZipMiddleware only honours minimum_size when it sees the WHOLE body at once.
+#   If GZip sits OUTSIDE an "http" middleware, it sees a stream and compresses even tiny answers.
+#   So GZip is added FIRST (innermost), before the "http" middleware functions below.
+#
 # LIMITS: @app.middleware("http") is easy but not meant for heavy traffic or streaming bodies;
 # a pure ASGI middleware is the faster form. For checks on a few routes, prefer dependencies (Module 23).
 # Built in: GZipMiddleware (compress big answers), TrustedHostMiddleware (reject a wrong Host header),
 # HTTPSRedirectMiddleware, CORSMiddleware.
 
 app = FastAPI()
+
+app.add_middleware(GZipMiddleware, minimum_size=500)    # added FIRST = innermost
 
 
 @app.middleware("http")
@@ -48,8 +57,7 @@ async def block_path(request: Request, call_next):
     return await call_next(request)
 
 
-app.add_middleware(GZipMiddleware, minimum_size=500)
-app.add_middleware(TrustedHostMiddleware, allowed_hosts=["testserver", "localhost", "127.0.0.1"])
+app.add_middleware(TrustedHostMiddleware, allowed_hosts=["testserver", "localhost", "127.0.0.1"])   # added LAST = outermost
 
 
 @app.get("/")
