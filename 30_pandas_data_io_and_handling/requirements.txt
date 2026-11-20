@@ -1,0 +1,5 @@
+numpy>=2
+pandas>=3
+openpyxl
+lxml
+tabulate
